@@ -1,6 +1,6 @@
 module ExpressMailer
   class Configuration
-    attr_accessor :default_to, :default_sender, :default_footer,
+    attr_accessor :default_to, :default_from, :default_footer,
       :subject_prefix, :app_name, :app_logo, :app_url,
       :background_color, :text_color, :border_color, :webfont_url,
       :headline_font_family, :text_font_family,
@@ -11,7 +11,7 @@ module ExpressMailer
 
     def initialize(options = {})
       @default_to = options.fetch(:default_to, nil)
-      @default_sender = options.fetch(:default_sender, 'noreply@example.com')
+      @default_from = options.fetch(:default_from, 'noreply@example.com')
       @default_footer = options.fetch(:default_footer, nil)
       @subject_prefix = options.fetch(:subject_prefix, nil)
       @app_name = options.fetch(:app_name, 'Example Company')

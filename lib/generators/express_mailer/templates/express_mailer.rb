@@ -1,10 +1,9 @@
 ExpressMailer.configure do |config|
-  config.default_sender = 'donotreply@example.com'
+  config.default_from = 'Example App <noreply@example.com>'
   config.app_name = 'Example Company'
   config.app_url = 'http://example.com'
 
   #config.default_to = 'admins@example.com'
-  #config.default_from = 'Example App <admins@example.com>'
   #config.default_footer = 'This was only sent to Admins'
 
   # config.subject_prefix = '[Example]'

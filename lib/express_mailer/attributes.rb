@@ -15,7 +15,7 @@ module ExpressMailer
       @configuration = ExpressMailer.configuration
       @style = options.fetch(:style, :info)
       @to = options.fetch(:to, @configuration.default_to)
-      @from = options.fetch(:from, @configuration.default_sender)
+      @from = options.fetch(:from, @configuration.default_from)
       @reply_to = options.fetch(:reply_to, nil)
       @subject = options.fetch(:subject, "Express Mail")
       @preheader = options.fetch(:preheader, Date.today.strftime('%B %-d, %Y'))

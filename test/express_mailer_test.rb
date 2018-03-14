@@ -7,10 +7,10 @@ class ExpressMailerTest < Minitest::Test
 
   def test_configure
     ExpressMailer.configure do |config|
-      config.default_sender = 'test@test.com'
+      config.default_from = 'test@test.com'
     end
 
-    assert_equal 'test@test.com', ExpressMailer.configuration.default_sender
+    assert_equal 'test@test.com', ExpressMailer.configuration.default_from
   end
 
   def test_headline_text_color
