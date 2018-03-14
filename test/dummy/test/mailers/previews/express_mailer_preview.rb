@@ -5,11 +5,15 @@ class ExpressMailerPreview < ActionMailer::Preview
       subject: 'Test subject',
       header: 'Today’s Profits',
       image: {
-        url: 'https://pbs.twimg.com/profile_images/949287080231952384/8ztpArYE_400x400.jpg',
-        alt: 'Zeldman',
-        shape: :circle
+        url: 'https://cdn.shopify.com/s/files/1/1061/1924/files/Money_Bag_Emoji.png',
+        alt: 'Money Bag'
       },
-      headline: '$2,400'
+      headline: '$2,400',
+      table: [
+        ['Acme Corporation', '$1200'],
+        ['Enterprise LLC', '$600'],
+        ['Corner Market', '$600'],
+      ]
     )
   end
 end

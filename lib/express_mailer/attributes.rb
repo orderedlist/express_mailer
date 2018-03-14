@@ -1,9 +1,10 @@
 require 'express_mailer/image'
+require 'express_mailer/table'
 
 module ExpressMailer
   class Attributes
     attr_accessor :configuration, :style, :to, :from, :reply_to, :subject,
-      :preheader, :header, :image, :footer, :headline
+      :preheader, :header, :image, :footer, :headline, :table
 
     delegate :app_url, :app_name, :app_logo, :text_color, :background_color,
       :border_color, :webfont_url, :text_font_family, :headline_font_family,
@@ -19,8 +20,9 @@ module ExpressMailer
       @preheader = options.fetch(:preheader, Date.today.strftime('%B %-d, %Y'))
       @header = options.fetch(:header, @subject)
       @footer = options.fetch(:footer, @configuration.default_footer)
-      @image = ExpressMailer::Image.create(options.fetch(:image, nil))
       @headline = options.fetch(:headline, nil)
+      @image = ExpressMailer::Image.create(options.fetch(:image, nil))
+      @table = ExpressMailer::Table.create(options.fetch(:table, nil))
     end
 
     def subject

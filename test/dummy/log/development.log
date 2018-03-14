@@ -3417,3 +3417,790 @@ ExpressMailer::Mailer#express: processed outbound mail in 69.3ms
 Completed 200 OK in 71ms (Views: 0.4ms)
 
 
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:37:54 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.6ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.6ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.4ms)
+Completed 200 OK in 40ms (Views: 5.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:37:54 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.0ms)
+ExpressMailer::Mailer#express: processed outbound mail in 37.9ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.4ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:38:09 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.6ms)
+ExpressMailer::Mailer#express: processed outbound mail in 27.7ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.4ms)
+Completed 200 OK in 37ms (Views: 6.2ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:38:09 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 35.3ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:38:17 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.2ms)
+ExpressMailer::Mailer#express: processed outbound mail in 28.4ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.3ms)
+Completed 200 OK in 37ms (Views: 5.8ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:38:17 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.7ms)
+ExpressMailer::Mailer#express: processed outbound mail in 37.8ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 39ms (Views: 0.4ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:38:23 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.7ms)
+ExpressMailer::Mailer#express: processed outbound mail in 31.2ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.6ms)
+Completed 200 OK in 42ms (Views: 6.4ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:38:23 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.2ms)
+ExpressMailer::Mailer#express: processed outbound mail in 38.8ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:38:37 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.8ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.2ms)
+Completed 200 OK in 42ms (Views: 5.6ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:38:37 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 37.9ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 40ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:40:25 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.6ms)
+ExpressMailer::Mailer#express: processed outbound mail in 31.4ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.7ms)
+Completed 200 OK in 40ms (Views: 5.6ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:40:26 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 34.9ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 36ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:41:07 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 253.6ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.7ms)
+Completed 200 OK in 461ms (Views: 7.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:41:08 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 39.3ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.8ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:42:36 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 28.9ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.3ms)
+Completed 200 OK in 35ms (Views: 5.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:42:36 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.3ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 32ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:42:43 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.3ms)
+ExpressMailer::Mailer#express: processed outbound mail in 29.9ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.7ms)
+Completed 200 OK in 39ms (Views: 8.0ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:42:44 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 37.3ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 39ms (Views: 0.6ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:44:07 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 28.6ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.6ms)
+Completed 200 OK in 37ms (Views: 6.9ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:44:07 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 35.1ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 36ms (Views: 0.5ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:44:20 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 32.3ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.7ms)
+Completed 200 OK in 41ms (Views: 8.1ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:44:20 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.9ms)
+ExpressMailer::Mailer#express: processed outbound mail in 51.9ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 53ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:44:53 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.9ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.0ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.4ms)
+Completed 200 OK in 37ms (Views: 6.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:44:54 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (3.1ms)
+ExpressMailer::Mailer#express: processed outbound mail in 78.4ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 81ms (Views: 0.6ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:45:17 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.3ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.8ms)
+Completed 200 OK in 38ms (Views: 6.8ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:45:17 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (4.3ms)
+ExpressMailer::Mailer#express: processed outbound mail in 57.8ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 59ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:48:30 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 29.1ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.4ms)
+Completed 200 OK in 36ms (Views: 6.6ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:48:30 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 35.6ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 0.4ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:48:47 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.3ms)
+ExpressMailer::Mailer#express: processed outbound mail in 36.7ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.4ms)
+Completed 200 OK in 48ms (Views: 10.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:48:47 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.6ms)
+ExpressMailer::Mailer#express: processed outbound mail in 65.8ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 77ms (Views: 5.8ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:50:12 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 28.4ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.3ms)
+Completed 200 OK in 38ms (Views: 8.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:50:12 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (4.9ms)
+ExpressMailer::Mailer#express: processed outbound mail in 48.4ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 50ms (Views: 0.5ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:50:20 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.6ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.3ms)
+Completed 200 OK in 40ms (Views: 9.2ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:50:20 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (3.7ms)
+ExpressMailer::Mailer#express: processed outbound mail in 63.0ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 67ms (Views: 0.5ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:50:40 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.1ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.5ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.6ms)
+Completed 200 OK in 38ms (Views: 6.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:50:40 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.0ms)
+ExpressMailer::Mailer#express: processed outbound mail in 58.5ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 60ms (Views: 0.3ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:51:16 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.2ms)
+ExpressMailer::Mailer#express: processed outbound mail in 30.8ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.7ms)
+Completed 200 OK in 38ms (Views: 6.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:51:16 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (4.7ms)
+ExpressMailer::Mailer#express: processed outbound mail in 56.2ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 59ms (Views: 0.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:51:28 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.7ms)
+ExpressMailer::Mailer#express: processed outbound mail in 29.6ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.7ms)
+Completed 200 OK in 37ms (Views: 6.9ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:51:28 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (4.4ms)
+ExpressMailer::Mailer#express: processed outbound mail in 42.2ms
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 44ms (Views: 0.7ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:51:36 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.8ms)
+ExpressMailer::Mailer#express: processed outbound mail in 27.1ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (1.2ms)
+Completed 200 OK in 33ms (Views: 4.9ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 12:51:36 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (2.5ms)
+ExpressMailer::Mailer#express: processed outbound mail in 40.0ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.4ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:59:38 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+ExpressMailer::Mailer#express: processed outbound mail in 0.6ms
+Completed 500 Internal Server Error in 235ms
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `fetch'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `initialize'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `new'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `create'
+/Users/steve/dev/express_mailer/lib/express_mailer/attributes.rb:24:in `initialize'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `new'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `express'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:23:in `block in process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:15:in `handle_exceptions'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:22:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionmailer (5.1.5) lib/action_mailer/base.rb:609:in `block in process'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionmailer (5.1.5) lib/action_mailer/base.rb:608:in `process'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:105:in `block in processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `tap'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:27:in `__getobj__'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/delegate.rb:80:in `method_missing'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:46:in `html_part'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:27:in `transform!'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:19:in `previewing_email'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:114:in `block in inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `each'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:68:in `call'
+railties (5.1.5) lib/rails/mailers_controller.rb:22:in `preview'
+actionpack (5.1.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.5) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 12:59:39 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+ExpressMailer::Mailer#express: processed outbound mail in 0.2ms
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `fetch'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `initialize'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `new'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `create'
+/Users/steve/dev/express_mailer/lib/express_mailer/attributes.rb:24:in `initialize'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `new'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `express'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:23:in `block in process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:15:in `handle_exceptions'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:22:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionmailer (5.1.5) lib/action_mailer/base.rb:609:in `block in process'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionmailer (5.1.5) lib/action_mailer/base.rb:608:in `process'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:105:in `block in processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `tap'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:27:in `__getobj__'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/delegate.rb:80:in `method_missing'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:46:in `html_part'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:27:in `transform!'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:19:in `previewing_email'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:114:in `block in inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `each'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:68:in `call'
+railties (5.1.5) lib/rails/mailers_controller.rb:22:in `preview'
+actionpack (5.1.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.5) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 13:00:13 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+ExpressMailer::Mailer#express: processed outbound mail in 0.2ms
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `fetch'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:14:in `initialize'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `new'
+/Users/steve/dev/express_mailer/lib/express_mailer/image.rb:7:in `create'
+/Users/steve/dev/express_mailer/lib/express_mailer/attributes.rb:24:in `initialize'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `new'
+/Users/steve/dev/express_mailer/app/mailers/express_mailer/mailer.rb:9:in `express'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:23:in `block in process'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:15:in `handle_exceptions'
+actionmailer (5.1.5) lib/action_mailer/rescuable.rb:22:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionmailer (5.1.5) lib/action_mailer/base.rb:609:in `block in process'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionmailer (5.1.5) lib/action_mailer/base.rb:608:in `process'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:105:in `block in processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `tap'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:104:in `processed_mailer'
+actionmailer (5.1.5) lib/action_mailer/message_delivery.rb:27:in `__getobj__'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/delegate.rb:80:in `method_missing'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:46:in `html_part'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:27:in `transform!'
+actionmailer (5.1.5) lib/action_mailer/inline_preview_interceptor.rb:19:in `previewing_email'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:114:in `block in inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `each'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:113:in `inform_preview_interceptors'
+actionmailer (5.1.5) lib/action_mailer/preview.rb:68:in `call'
+railties (5.1.5) lib/rails/mailers_controller.rb:22:in `preview'
+actionpack (5.1.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.5) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.5) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.5) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/steve/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/rails/mailers/express_mailer/info_email" for ::1 at 2018-03-14 13:00:18 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (3.6ms)
+ExpressMailer::Mailer#express: processed outbound mail in 256.5ms
+  Rendering /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb
+  Rendered /Users/steve/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.1ms)
+Completed 200 OK in 466ms (Views: 7.1ms)
+
+
+Started GET "/rails/mailers/express_mailer/info_email?part=text%2Fhtml" for ::1 at 2018-03-14 13:00:18 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"express_mailer/info_email"}
+  Rendering /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer
+  Rendered /Users/steve/dev/express_mailer/app/views/express_mailer/mailer/express.html.erb within layouts/mailer (1.9ms)
+ExpressMailer::Mailer#express: processed outbound mail in 41.7ms
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 44ms (Views: 0.9ms)
+
+

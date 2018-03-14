@@ -155,6 +155,35 @@
 		</tr>
 	<% end %>
 
+	<% if @attributes.table %>
+		<!-- HEADLINE -->
+		<tr>
+			<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 87.5%; font-size: 18px; font-weight: 600; line-height: 1.1;
+				padding-bottom: 20px; padding-top: 10px; padding-left: 6.25%; padding-right: 6.25%;
+				font-family: <%= @attributes.text_font_family %>;">
+				<table style="width: 100%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;">
+					<tr>
+			  		<td align="center" colspan="<%= @attributes.table.column_count %>" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 87.5%;" class="line">
+							<hr color="<%= @attributes.border_color %>" align="center" width="100%" size="1" noshade style="margin: 0; padding: 0;" />
+			  		</td>
+			  	</tr>
+					<% @attributes.table.rows.each do |row| %>
+						<tr>
+							<% row.each_with_index do |col, idx| %>
+								<td style="text-align: <%= idx == row.count - 1 ? 'right' : 'left' %>; padding-top: 12px; padding-bottom: 12px; padding-left: 8px; padding-right: 8px; font-weight: 600; font-family: <%= @attributes.text_font_family %>;"><%= col %></td>
+							<% end %>
+						</tr>
+						<tr>
+							<td align="center" colspan="<%= @attributes.table.column_count %>" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 87.5%;" class="line">
+								<hr color="<%= @attributes.border_color %>" align="center" width="100%" size="1" noshade style="margin: 0; padding: 0;" />
+							</td>
+						</tr>
+					<% end %>
+				</table>
+			</td>
+		</tr>
+	<% end %>
+
 	<!-- more stuff here -->
 
   <% if @attributes.footer %>
