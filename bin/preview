@@ -1,0 +1,15 @@
+#!/bin/sh
+#/ Usage: bootstrap [bundle options]
+#/
+#/ Bundle install the dependencies.
+#/
+#/ Examples:
+#/
+#/   bootstrap
+#/   bootstrap --local
+#/
+
+set -e
+cd $(dirname "$0")/../test/dummy
+
+rails s
