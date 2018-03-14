@@ -2,8 +2,7 @@
 class ExpressMailerPreview < ActionMailer::Preview
   def info_email
     ExpressMailer.info(
-      subject: 'Test subject',
-      header: 'Today’s Profits',
+      subject: 'Today’s Profits',
       image: {
         url: 'https://cdn.shopify.com/s/files/1/1061/1924/files/Money_Bag_Emoji.png',
         alt: 'Money Bag'
@@ -17,6 +16,52 @@ class ExpressMailerPreview < ActionMailer::Preview
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex ullamcorper, dapibus mauris euismod, ultrices elit.',
       button: {
         text: 'View details',
+        url: 'http://example.com/orders/1'
+      }
+    )
+  end
+
+  def success_email
+    ExpressMailer.success(
+      subject: 'New Signup - Rachel Richards',
+      preheader: 'New Signup',
+      header: 'Rachael Richards',
+      image: {
+        url: 'https://pbs.twimg.com/profile_images/378800000084891630/3f7cffb42f5d216e53ff73e82020f7b5_400x400.png',
+        alt: 'Rachel Richards avatar',
+        shape: :circle
+      },
+      headline: 'Premium',
+      text: '$29/month',
+      button: {
+        text: 'View order',
+        url: 'http://example.com/orders/1'
+      }
+    )
+  end
+
+  def warning_email
+    ExpressMailer.warning(
+      subject: 'Approaching Data Limit',
+      preheader: 'Approaching Limit',
+      header: 'Space Remaining',
+      headline: '56mb',
+      text: 'Upgrade your account or clear out some of your assets.',
+      button: {
+        text: 'Manage storage',
+        url: 'http://example.com/manage/storage'
+      }
+    )
+  end
+
+  def error_email
+    ExpressMailer.error(
+      subject: 'User Cancelled - Acme Incorporated',
+      preheader: 'User Cancelled',
+      header: 'Acme Incorporated',
+      headline: '-$320/mo',
+      button: {
+        text: 'View cancellation',
         url: 'http://example.com/orders/1'
       }
     )
