@@ -2,7 +2,7 @@
 
 if defined?(ActionMailer)
   class ExpressMailer::Mailer < ActionMailer::Base
-    layout 'mailer'
+    layout false
 
     def express(attributes, style = :info)
       @config = ExpressMailer.configuration
