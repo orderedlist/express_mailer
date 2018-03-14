@@ -3,6 +3,7 @@ class ExpressMailerPreview < ActionMailer::Preview
   def info_email
     ExpressMailer.info(
       subject: 'Today’s Profits',
+      from: 'Example App <noreply@example.com>',
       image: {
         url: 'https://cdn.shopify.com/s/files/1/1061/1924/files/Money_Bag_Emoji.png',
         alt: 'Money Bag'
@@ -16,7 +17,7 @@ class ExpressMailerPreview < ActionMailer::Preview
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex ullamcorper, dapibus mauris euismod, ultrices elit.',
       button: {
         text: 'View details',
-        url: 'http://example.com/orders/1'
+        href: 'http://example.com/orders/1'
       }
     )
   end
@@ -35,7 +36,7 @@ class ExpressMailerPreview < ActionMailer::Preview
       text: '$29/month',
       button: {
         text: 'View order',
-        url: 'http://example.com/orders/1'
+        href: 'http://example.com/orders/1'
       }
     )
   end
@@ -49,7 +50,7 @@ class ExpressMailerPreview < ActionMailer::Preview
       text: 'Upgrade your account or clear out some of your assets.',
       button: {
         text: 'Manage storage',
-        url: 'http://example.com/manage/storage'
+        href: 'http://example.com/manage/storage'
       }
     )
   end
@@ -62,7 +63,7 @@ class ExpressMailerPreview < ActionMailer::Preview
       headline: '-$320/mo',
       button: {
         text: 'View cancellation',
-        url: 'http://example.com/orders/1'
+        href: 'http://example.com/orders/1'
       }
     )
   end

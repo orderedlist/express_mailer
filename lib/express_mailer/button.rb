@@ -1,6 +1,6 @@
 module ExpressMailer
   class Button
-    attr_accessor :text, :url
+    attr_accessor :text, :href
 
     def self.create(options)
       if options
@@ -12,7 +12,7 @@ module ExpressMailer
 
     def initialize(options = {})
       @text = options.fetch(:text)
-      @url = options.fetch(:url)
+      @href = options.fetch(:href)
     end
   end
 end
