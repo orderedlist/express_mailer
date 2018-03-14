@@ -13,7 +13,12 @@ class ExpressMailerPreview < ActionMailer::Preview
         ['Acme Corporation', '$1200'],
         ['Enterprise LLC', '$600'],
         ['Corner Market', '$600'],
-      ]
+      ],
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex ullamcorper, dapibus mauris euismod, ultrices elit.',
+      button: {
+        text: 'View details',
+        url: 'http://example.com/orders/1'
+      }
     )
   end
 end
