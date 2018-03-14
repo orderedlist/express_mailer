@@ -51,5 +51,13 @@ module ExpressMailer
         :center
       end
     end
+
+    def text_size
+      if @text.to_s.length > 60
+        20
+      else
+        26
+      end
+    end
   end
 end

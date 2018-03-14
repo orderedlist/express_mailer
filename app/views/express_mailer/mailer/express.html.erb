@@ -126,7 +126,7 @@
   <!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
   <tr>
     <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;  padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 36px; font-weight: 600; line-height: 130%;
-      padding-top: 5px; padding-bottom: 20px;
+      padding-bottom: 20px;
       color: <%= @attributes.text_color %>" class="header headline">
         <%= @attributes.header %>
     </td>
@@ -138,7 +138,7 @@
 			<td align="center" class="color" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 14px; font-weight: 400; line-height: 150%; letter-spacing: 2px;
 				padding-bottom: 20px;">
 					<div style="display: inline-block; overflow: hidden; background-color: <%= @attributes.image.background %>;" class="<%= @attributes.image.shape_class %>">
-						<img src="<%= @attributes.image.url %>" alt="<%= @attributes.image.alt %>" height="<%= @attributes.image.height %>" />
+						<img src="<%= @attributes.image.url %>" alt="<%= @attributes.image.alt %>" height="<%= @attributes.image.height %>" style="float: left;" />
 					</div>
 			</td>
 		</tr>
@@ -159,7 +159,7 @@
 		<!-- HEADLINE -->
 		<tr>
 			<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 87.5%; font-size: 18px; font-weight: 600; line-height: 1.1;
-				padding-bottom: 20px; padding-top: 10px; padding-left: 6.25%; padding-right: 6.25%;
+				padding-bottom: 30px; padding-top: 10px; padding-left: 6.25%; padding-right: 6.25%;
 				font-family: <%= @attributes.text_font_family %>;">
 				<table style="width: 100%; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;">
 					<tr>
@@ -187,9 +187,8 @@
 	<% if @attributes.text %>
 	<!-- TEXT -->
 	<tr>
-		<td align="<%= @attributes.text_align %>" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 18px; font-weight: 400; line-height: 140%;
+		<td align="<%= @attributes.text_align %>" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: <%= @attributes.text_size %>px; font-weight: 400; line-height: 1.3;
 			padding-bottom: 20px;
-			padding-top: 10px;
 			color: <%= @attributes.text_color %>;
 			font-family: <%= @attributes.text_font_family %>;" class="paragraph">
 				<%= @attributes.text %>
@@ -231,7 +230,7 @@
   	<!-- FOOTER -->
   	<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
   	<tr>
-  		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 13px; font-weight: 400; line-height: 150%;
+  		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 14px; font-weight: 400; line-height: 150%;
   			padding-top: 10px;
   			padding-bottom: 30px;
   			color: <%= @attributes.text_color %>;
