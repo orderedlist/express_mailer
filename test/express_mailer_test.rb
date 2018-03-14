@@ -2,7 +2,7 @@ require "test_helper"
 
 class ExpressMailerTest < Minitest::Test
   def teardown
-    ExpressMailer.configuration = nil
+    ExpressMailer.configuration = ExpressMailer::Configuration.new
   end
 
   def test_configure
@@ -87,5 +87,11 @@ class ExpressMailerTest < Minitest::Test
 
     email = ExpressMailer.info(subject: 'Testing the subject')
     assert_equal ['me@test.com'], email.to
+  end
+
+  def test_can_create_an_image
+    attributes = ExpressMailer::Attributes.new(image: {url: 'http://test.com/assets/image.png', alt: 'Avatar'})
+
+    assert_equal 'http://test.com/assets/image.png', attributes.image.url
   end
 end

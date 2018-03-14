@@ -22,6 +22,7 @@
 
       .headline {
         font-family: <%= @attributes.headline_font_family %>;
+				font-weight: 600;
       }
     }
   </style>
@@ -49,6 +50,16 @@
       color: <%= @attributes.text_color %>;
       letter-spacing: 3px;
     }
+
+		.shape-circle {
+			border-radius: 100%;
+			overflow: hidden;
+		}
+
+		.shape-rounded {
+			border-radius: 8px;
+			overflow: hidden;
+		}
 
  	</style>
 
@@ -114,12 +125,35 @@
   <!-- HEADER -->
   <!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
   <tr>
-    <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;  padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 36px; font-weight: bold; line-height: 130%;
-      padding-top: 5px;
+    <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;  padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 36px; font-weight: 600; line-height: 130%;
+      padding-top: 5px; padding-bottom: 20px;
       color: <%= @attributes.text_color %>" class="header headline">
         <%= @attributes.header %>
     </td>
   </tr>
+
+	<% if @attributes.image %>
+		<!-- IMAGE -->
+		<tr>
+			<td align="center" class="color" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 14px; font-weight: 400; line-height: 150%; letter-spacing: 2px;
+				padding-bottom: 20px;">
+					<div style="display: inline-block; overflow: hidden; background-color: <%= @attributes.image.background %>;" class="<%= @attributes.image.shape_class %>">
+						<img src="<%= @attributes.image.url %>" alt="<%= @attributes.image.alt %>" height="<%= @attributes.image.height %>" />
+					</div>
+			</td>
+		</tr>
+	<% end %>
+
+	<% if @attributes.headline %>
+		<!-- HEADLINE -->
+		<tr>
+			<td align="center" class="color headline" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 60px; font-weight: 600; line-height: 1.1; letter-spacing: 2px;
+				padding-bottom: 20px;
+				font-family: <%= @attributes.headline_font_family %>;">
+					<%= @attributes.headline %>
+			</td>
+		</tr>
+	<% end %>
 
 	<!-- more stuff here -->
 
@@ -140,7 +174,7 @@
   			padding-top: 10px;
   			padding-bottom: 20px;
   			color: <%= @attributes.text_color %>;
-  			font-family: " class="footer">
+  			font-family: <%= @attributes.text_font_family %>;" class="footer">
   				<%= sanitize(@attributes.footer, :tags => %w(a br)).html_safe %>
   		</td>
   	</tr>
