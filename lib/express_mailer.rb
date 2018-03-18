@@ -74,4 +74,8 @@ module ExpressMailer
   def error(attributes)
     ExpressMailer::Mailer.express(attributes, :error)
   end
+
+  if defined?(Delayed::DelayMail)
+    extend Delayed::DelayMail
+  end
 end
